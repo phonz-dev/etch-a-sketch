@@ -1,0 +1,25 @@
+body {
+  /* text-align: center; */
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+.container {
+  display: grid;
+  height: 600px;
+  width: 600px;
+  grid-auto-flow: dense;
+  /* grid-auto-columns: ; */
+  grid-auto-rows: auto;
+  outline: 1px solid black;
+}
+
+.mini-box {
+  transition: all 500ms;
+}
+
+.btn {
+  margin: 10px auto;
+  padding: 10px;
+}
